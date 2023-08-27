@@ -2,15 +2,8 @@
 
 using namespace std;
 
-string ltrim(const string &);
-string rtrim(const string &);
 
-/*
- * Complete the 'isBalanced' function below.
- *
- * The function is expected to return a STRING.
- * The function accepts STRING s as parameter.
- */
+
 
 string isBalanced(string s) {
     std::stack<char> cont;
